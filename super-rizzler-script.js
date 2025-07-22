@@ -1,5 +1,5 @@
 function go(ab){
-    let banana = ab
+    const banana = ab
 }
 // Assuming 'data.json' is accessible via a web server
 fetch('accounts.json')
