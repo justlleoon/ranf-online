@@ -1,1 +1,1 @@
-$("div#chc").hide();
+$("div.chc").hide();
