@@ -15,18 +15,19 @@
 <body>
     <h1 id="top">RANF Online</h1>
     <div id="srch">
-        <input type="number" id="cnid" placeholder="Card Number ID"><br>
-        <input type="number" id="ccv" placeholder="CCV"><br>
+        <input type="number" id="cnid" placeholder="Card Number ID" max="599999999999" maxlength="12" min="500000000000"><br>
+        <input type="number" id="ccv" placeholder="CCV" maxlength="3"><br>
         <button onclick="checkMate()">Login</button>
     </div>
     <div class="chc">
         <h1>Hello, <span id="un"></span>!</h1>
         <p><b>Current Balance:</b>&nbsp;<span id="csh"></span></p>
         <p><b></b>&nbsp;<span id="cntr"></span></p>
+        <a href="https://justlleoon.github.io/ranf-online/">Logout</a>
     </div>
     <hr>
     <span>Adverts!</span>
     <a href="https://youareanidiot.cc">FREE RIZZET CARMA!!!!!</a>
-    <script>//onstart()</script>
+    <script>onstart()</script>
 </body>
 </html>
