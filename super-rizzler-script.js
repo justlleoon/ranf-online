@@ -1,17 +1,9 @@
+function go(ab){
+    let banana = ab
+}
 // Assuming 'data.json' is accessible via a web server
 fetch('accounts.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    return response.json(); // Parses the JSON response into a JavaScript object
-  })
-  .then(data => {
-    console.log(data); // Work with the parsed JSON data
-  })
-  .catch(error => {
-    console.error('Error fetching or parsing JSON:', error);
-  });
+    .then(j => go(j))
 function onstart(){
     $("div.chc").hide();
 };
