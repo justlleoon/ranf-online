@@ -15,12 +15,21 @@
 <body>
     <h1 id="top">RANF Online</h1>
     <div id="srch">
-
+        <input type="number" id="cnid" placeholder="Card Number ID"><br>
+        <input type="number" id="ccv" placeholder="CCV"><br>
+        <button onclick="checkMate()">Login</button>
     </div>
     <div id="chc">
         <h1>Hello, <span id="un"></span>!</h1>
         <table>
-            
+            <tr>
+                <td>Spendable Balance</td>
+                <td id="wow"></td>
+            </tr>
+            <tr>
+                <td>Billing Address</td>
+                <td id=cool></td>
+            </tr>
         </table>
     </div>
 </body>
