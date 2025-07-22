@@ -15,12 +15,13 @@ function checkMate(){
     let ccv = document.forms["fui"]["ccv"].value;
     let usr = superman.find(superman => superman.one === `${bubba}`)
     console.log(usr);
-    return false;
     if(usr === undefined){
         alert("Wrong ID and/or CCV.")
         return false
     }
-    if(usr.ccn = "potato"){
+    if(usr.ccn =! ccv){
+        alert("Wrong ID and/or CCV")
         return false
     }
+
 }
