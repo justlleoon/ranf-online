@@ -1,6 +1,6 @@
 {
 "users":[
-  {name:"Vivi", ccn:"098", bp:"311", one:"527488231143", isGod:false},
-  {name:"GLORIOUS LEADER POCO", ccn:"999", bp:"99999999999", one:"527499999999", isGod:true},
+  {"name":"Vivi", "ccn":"098", "bp":"311", "one":"527488231143", "isGod":false},
+  {"name":"GLORIOUS LEADER POCO", "ccn":"999", "bp":"99999999999", "one":"527499999999", "isGod":true},
 ]
 }
