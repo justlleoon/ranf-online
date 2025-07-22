@@ -14,6 +14,8 @@ function checkMate(){
     let bubba = document.forms["fui"]["cnid"].value;
     let ccv = document.forms["fui"]["ccv"].value;
     let usr = superman.find(superman => superman.one === `${bubba}`)
+    console.log(usr);
+    return false;
     if(usr === undefined){
         alert("Wrong ID and/or CCV.")
         return false
