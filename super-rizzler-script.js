@@ -1,1 +1,4 @@
-$("div.chc").hide();
+function onstart(){
+    $("div.chc").hide();
+};
+onstart()
