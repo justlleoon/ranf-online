@@ -15,9 +15,11 @@
 <body>
     <h1 id="top">RANF Online</h1>
     <div id="srch">
-        <input type="number" id="cnid" placeholder="Card Number ID" max="599999999999" maxlength="12" min="500000000000"><br>
-        <input type="number" id="ccv" placeholder="CCV" maxlength="3"><br>
-        <button onclick="checkMate()">Login</button>
+        <form onsubmit="return checkMate()" name="fui">
+        <input type="number" name="cnid" placeholder="Card Number ID" max="599999999999" maxlength="12" min="500000000000"><br>
+        <input type="number" name="ccv" placeholder="CCV" maxlength="3"><br>
+        <input type="submit">
+        </form>
     </div>
     <div class="chc">
         <h1>Hello, <span id="un"></span>!</h1>
